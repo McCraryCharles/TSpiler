@@ -30,7 +30,7 @@
 		1129C7321FD4DB4D001F1F26 /* Parser.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Parser.hpp; sourceTree = "<group>"; };
 		113FB1951FD82E0100877173 /* Buffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Buffer.cpp; sourceTree = "<group>"; };
 		113FB1961FD82E0100877173 /* Buffer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Buffer.hpp; sourceTree = "<group>"; };
-		1199A9FD1FC7B5E700DFC71C /* TestingCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestingCpp; sourceTree = BUILT_PRODUCTS_DIR; };
+		1199A9FD1FC7B5E700DFC71C /* TSParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TSParser; sourceTree = BUILT_PRODUCTS_DIR; };
 		1199AA001FC7B5E700DFC71C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1199AA081FC7C0F400DFC71C /* simple.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = simple.cpp; sourceTree = "<group>"; };
 		1199AA091FC7C0F400DFC71C /* simple.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = simple.hpp; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		1199A9F41FC7B5E700DFC71C = {
 			isa = PBXGroup;
 			children = (
-				1199A9FF1FC7B5E700DFC71C /* TestingCpp */,
+				1199A9FF1FC7B5E700DFC71C /* TSParser */,
 				1199A9FE1FC7B5E700DFC71C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,12 +58,12 @@
 		1199A9FE1FC7B5E700DFC71C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1199A9FD1FC7B5E700DFC71C /* TestingCpp */,
+				1199A9FD1FC7B5E700DFC71C /* TSParser */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1199A9FF1FC7B5E700DFC71C /* TestingCpp */ = {
+		1199A9FF1FC7B5E700DFC71C /* TSParser */ = {
 			isa = PBXGroup;
 			children = (
 				1199AA071FC7C0C500DFC71C /* Functions */,
@@ -73,7 +73,7 @@
 				113FB1951FD82E0100877173 /* Buffer.cpp */,
 				113FB1961FD82E0100877173 /* Buffer.hpp */,
 			);
-			path = TestingCpp;
+			path = TSParser;
 			sourceTree = "<group>";
 		};
 		1199AA071FC7C0C500DFC71C /* Functions */ = {
@@ -88,9 +88,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1199A9FC1FC7B5E700DFC71C /* TestingCpp */ = {
+		1199A9FC1FC7B5E700DFC71C /* TSParser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1199AA041FC7B5E700DFC71C /* Build configuration list for PBXNativeTarget "TestingCpp" */;
+			buildConfigurationList = 1199AA041FC7B5E700DFC71C /* Build configuration list for PBXNativeTarget "TSParser" */;
 			buildPhases = (
 				1199A9F91FC7B5E700DFC71C /* Sources */,
 				1199A9FA1FC7B5E700DFC71C /* Frameworks */,
@@ -100,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = TestingCpp;
+			name = TSParser;
 			productName = TestingCpp;
-			productReference = 1199A9FD1FC7B5E700DFC71C /* TestingCpp */;
+			productReference = 1199A9FD1FC7B5E700DFC71C /* TSParser */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -120,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1199A9F81FC7B5E700DFC71C /* Build configuration list for PBXProject "TestingCpp" */;
+			buildConfigurationList = 1199A9F81FC7B5E700DFC71C /* Build configuration list for PBXProject "TSParser" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1199A9FC1FC7B5E700DFC71C /* TestingCpp */,
+				1199A9FC1FC7B5E700DFC71C /* TSParser */,
 			);
 		};
 /* End PBXProject section */
@@ -274,7 +274,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1199A9F81FC7B5E700DFC71C /* Build configuration list for PBXProject "TestingCpp" */ = {
+		1199A9F81FC7B5E700DFC71C /* Build configuration list for PBXProject "TSParser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1199AA021FC7B5E700DFC71C /* Debug */,
@@ -283,7 +283,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1199AA041FC7B5E700DFC71C /* Build configuration list for PBXNativeTarget "TestingCpp" */ = {
+		1199AA041FC7B5E700DFC71C /* Build configuration list for PBXNativeTarget "TSParser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1199AA051FC7B5E700DFC71C /* Debug */,
